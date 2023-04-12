@@ -84,24 +84,31 @@ h1 {
 
 h2 {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 h3 {
     font-family: Helvetica, Arial, sans-serif;
     color:white;
-    font-size:2em;
+    font-size:2rem;
     text-align: center;
+}
+
+h4 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    line-height:30px;
 }
 
 p {
     font-family: Helvetica, Arial, sans-serif;
-    font-size:1.5em;
+    font-size:1.5rem;
 }
 
 a {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 @media screen and (max-width: 500px) {
@@ -110,9 +117,24 @@ a {
     }
 }
 
-footer, footer .inner {
-    background-color: #cccccc;
-    padding: 2em 0;
+footer {
+    position:relative;
+    bottom:0;
+    right:0;
+    left:0;
+    height:auto;
+    padding-top:30px;
+    width:100vw;
+    color:white;
+    background-color: #25242d;
+}
+
+.footer-inner {
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction: column;
+text-align:center;
 }
 
 .about p {
