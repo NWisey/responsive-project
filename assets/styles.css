@@ -97,6 +97,20 @@ align-items: center;
     height: 100%;
 }
 
+.gallery-grid {
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: auto;
+column-gap: 3em;
+margin: 3em;
+}
+
+.gallery-content {
+    display:inline;
+    padding:2em;
+    background-color:#25242d;
+}
+
 h1 {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 4em;
@@ -119,6 +133,8 @@ h3 {
     padding-left:2rem;
     padding-right:2rem;
         }
+
+
 
 h4 {
     font-family: Helvetica, Arial, sans-serif;
