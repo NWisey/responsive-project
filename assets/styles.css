@@ -64,6 +64,21 @@ align-items: center;
     justify-content: center; 
     }
 
+    .gallery-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;  
+        column-gap:.5em;
+        row-gap: 1em;
+        margin: 4em 0;
+    }
+
+    .gallery-gallery div{
+        min-height: 10em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .about-gallery {
         display: grid;
         grid-template-columns:1fr 1fr;
